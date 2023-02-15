@@ -107,7 +107,6 @@ def track_order(due_date, product_type, station_number, time):
     """
     This function first checks if the order visited its last station (this means the order is finished) and later
     it checks whether the order missed its due date or was finished on time.
-    :param environment: THe Simulation environment.
     :param due_date: The orders' due date.
     :param product_type: The orders' product type.
     :param station_number: The current station the order visited.
