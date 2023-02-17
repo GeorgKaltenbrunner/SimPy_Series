@@ -7,3 +7,7 @@ This file contains the code for the first article of this series. There the code
 ## second_article_sequencing_release.py
 This file extends the basic model by an order pool. This enables the usage of order sequencing and order release
 approaches. On medium the code is described in more detail (see: https://medium.com/@georgkaltenbrunner/second-article-simulation-with-simpy-and-applying-machine-learning-84c3f7cff6f4)
+
+## third_article_features.py
+This file extends the previous code by extracting various features to be able to predict the orders SFTT more accurately.
+Furthermore, the files test_features.csv and train_features.csv are added, as there the features can be found.
